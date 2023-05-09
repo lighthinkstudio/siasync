@@ -2,7 +2,7 @@
 
 ## Tentang Kami
 
-SIASYNC adalah sebuah package untuk memudahkan koneksi dan integrasi SIASN API dalam mengembangkan sistem informasi kepegawaian menggunakan laravel.
+SIASYNC adalah sebuah library untuk memudahkan koneksi dan integrasi SIASN API dalam mengembangkan sistem informasi kepegawaian menggunakan laravel.
 
 ## Instalasi
 
@@ -18,12 +18,12 @@ php artisan vendor:publish --provider="Lighthinkstudio\Siasync\SiasyncServicePro
 
 Tambahkan konfigurasi pada file .env seperti berikut:
 ```
-SIASYNC_SSO_URL=ISI_DENGAN_URL_SSO_SIASYNC
-SIASYNC_AUTH_URL=ISI_DENGAN_URL_AUTH_SIASYNC
-SIASYNC_USERNAME=ISI_DENGAN_USERNAME_SIASYNC
-SIASYNC_PASSWORD=ISI_DENGAN_PASSWORD_SIASYNC
-SIASYNC_AUTH_KEY=ISI_DENGAN_AUTH_CONSUMER_KEY
-SIASYNC_SECRET_KEY=ISI_DENGAN_AUTH_SECRET_KEY
+SIASYNC_SSO_URL=
+SIASYNC_AUTH_URL=
+SIASYNC_USERNAME=
+SIASYNC_PASSWORD=
+SIASYNC_AUTH_KEY=
+SIASYNC_SECRET_KEY=
 ```
 
 ## Penggunaan
