@@ -1,17 +1,17 @@
 {
-    "name": "lighthinkstudio/siasn",
+    "name": "lighthinkstudio/siasync",
     "description": "Konfigurasi API SI-ASN untuk Laravel",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Lighthinkstudio\\Siasn\\": "src/"
+            "Lighthinkstudio\\Siasync\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Lighthinkstudio\\Siasn\\SiasnServiceProvider"
+                "Lighthinkstudio\\Siasync\\SiasyncServiceProvider"
             ]
         }
     },

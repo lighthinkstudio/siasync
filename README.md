@@ -2,28 +2,28 @@
 
 ## Tentang Kami
 
-SIASN adalah sebuah package untuk memudahkan konesi dan integrasi SIASN API dalam mengembangkan sistem informasi kepegawaian menggunakan laravel.
+SIASYNC adalah sebuah package untuk memudahkan koneksi dan integrasi SIASN API dalam mengembangkan sistem informasi kepegawaian menggunakan laravel.
 
 ## Instalasi
 
 ```
-composer require lighthinkstudio/siasn
+composer require lighthinkstudio/siasync
 ```
 
 ```
-php artisan vendor:publish --provider="Lighthinkstudio\Siasn\SiasnServiceProvider"
+php artisan vendor:publish --provider="Lighthinkstudio\Siasync\SiasyncServiceProvider"
 ```
 
 ## Konfigurasi
 
 Tambahkan konfigurasi pada file .env seperti berikut:
 ```
-SIASN_SSO_URL=ISI_DENGAN_URL_SSO_SIASN
-SIASN_AUTH_URL=ISI_DENGAN_URL_AUTH_SIASN
-SIASN_USERNAME=ISI_DENGAN_USERNAME_SIASN
-SIASN_PASSWORD=ISI_DENGAN_PASSWORD_SIASN
-SIASN_AUTH_KEY=ISI_DENGAN_AUTH_CONSUMER_KEY
-SIASN_SECRET_KEY=ISI_DENGAN_AUTH_SECRET_KEY
+SIASYNC_SSO_URL=ISI_DENGAN_URL_SSO_SIASYNC
+SIASYNC_AUTH_URL=ISI_DENGAN_URL_AUTH_SIASYNC
+SIASYNC_USERNAME=ISI_DENGAN_USERNAME_SIASYNC
+SIASYNC_PASSWORD=ISI_DENGAN_PASSWORD_SIASYNC
+SIASYNC_AUTH_KEY=ISI_DENGAN_AUTH_CONSUMER_KEY
+SIASYNC_SECRET_KEY=ISI_DENGAN_AUTH_SECRET_KEY
 ```
 
 ## Penggunaan
@@ -37,15 +37,15 @@ use App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use GuzzleHttp\Client;
-use Lighthinkstudio\Siasn\Siasn;
+use Lighthinkstudio\Siasync\Siasync;
 
 class ContohController extends Controller
 {
-    public function index(Client $http, Siasn $siasn)
+    public function index(Client $http, Siasync $siasync)
     {
-        $get_data = $http->get('ISI_DENGEN_URL_RESOURCES_SIASN_API', $siasn->connect());
+        $get_data = $http->get('ISI_DENGEN_URL_RESOURCES_SIASYNC_API', $siasync->connect());
 
-        $data_utama =  json_decode((string) $get_data->getBody($siasn->auth())->getContents(), true);
+        $data_utama =  json_decode((string) $get_data->getBody($siasync->auth())->getContents(), true);
         dd($data_utama);
     }
 }
@@ -54,4 +54,4 @@ class ContohController extends Controller
 
 
 ## License
-SIASN is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+SIASYNC is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
