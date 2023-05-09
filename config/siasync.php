@@ -1,73 +1,73 @@
 <?php
 
-use Lighthinkstudio\Siasn\Siasn;
+use Lighthinkstudio\Siasync\Siasync;
 
 return [
 
     /*
     |--------------------------------------------------------------------------
-    | Siasn Sso URL
+    | Siasync Sso URL
     |--------------------------------------------------------------------------
     |
     | Description here
     |
     */
 
-    'siasn_sso_url' => env('SIASN_SSO_URL', NULL),
+    'siasync_sso_url' => env('SIASYNC_SSO_URL', NULL),
 
     /*
     |--------------------------------------------------------------------------
-    | Siasn Auth URL
+    | Siasync Auth URL
     |--------------------------------------------------------------------------
     |
     | Description here
     |
     */
 
-    'siasn_auth_url' => env('SIASN_AUTH_URL', NULL),
+    'siasync_auth_url' => env('SIASYNC_AUTH_URL', NULL),
 
     /*
     |--------------------------------------------------------------------------
-    | Siasn Username
+    | Siasync Username
     |--------------------------------------------------------------------------
     |
     | Description here
     |
     */
 
-    'siasn_username' => env('SIASN_USERNAME', NULL),
+    'siasync_username' => env('SIASYNC_USERNAME', NULL),
 
     /*
     |--------------------------------------------------------------------------
-    | Siasn Password
+    | Siasync Password
     |--------------------------------------------------------------------------
     |
     | Description here
     |
     */
 
-    'siasn_password' => env('SIASN_PASSWORD', NULL),
+    'siasync_password' => env('SIASYNC_PASSWORD', NULL),
 
     /*
     |--------------------------------------------------------------------------
-    | Siasn Auth Key
+    | Siasync Auth Key
     |--------------------------------------------------------------------------
     |
     | Description here
     |
     */
 
-    'siasn_auth_key' => env('SIASN_AUTH_KEY', NULL),
+    'siasync_auth_key' => env('SIASYNC_AUTH_KEY', NULL),
 
     /*
     |--------------------------------------------------------------------------
-    | Siasn Secret Key
+    | Siasync Secret Key
     |--------------------------------------------------------------------------
     |
     | Description here
     |
     */
 
-    'siasn_secret_key' => env('SIASN_SECRET_KEY', NULL),
+    'siasync_secret_key' => env('SIASYNC_SECRET_KEY', NULL),
 
 ];
