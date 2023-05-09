@@ -1,6 +1,6 @@
 {
     "name": "lighthinkstudio/siasync",
-    "description": "Konfigurasi API SI-ASN untuk Laravel",
+    "description": "SIASYNC Laravel Library",
     "type": "library",
     "license": "MIT",
     "autoload": {
