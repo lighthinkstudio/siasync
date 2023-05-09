@@ -14,5 +14,16 @@ composer require lighthinkstudio/siasn
 php artisan vendor:publish --provider="Lighthinkstudio\Siasn\SiasnServiceProvider"
 ```
 
+Tambahkan konfigurasi pada file .env seperti berikut:
+```
+SIASN_SSO_URL=
+SIASN_AUTH_URL=
+SIASN_USERNAME=
+SIASN_PASSWORD=
+SIASN_AUTH_KEY=
+SIASN_SECRET_KEY=
+```
+Isi masing-masing data sesuai dengan data yang ada pada SIASN.
+
 ## License
 SIMPEG LTS is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
