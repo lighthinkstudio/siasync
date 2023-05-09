@@ -1,0 +1,28 @@
+{
+    "name": "lighthinkstudio/siasn",
+    "description": "Konfigurasi API SI-ASN untuk Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lighthinkstudio\\Siasn\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lighthinkstudio\\Siasn\\SiasnServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Muslim",
+            "email": "dmooez.dev@gmail.com",
+            "homepage": "https://github.com/lighthinkstudio",
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
