@@ -54,4 +54,4 @@ class ContohController extends Controller
 
 
 ## License
-SIMPEG LTS is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+SIASN is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
