@@ -43,10 +43,10 @@ class ContohController extends Controller
 {
     public function index(Client $http, Siasync $siasync)
     {
-        $get_data = $http->get('ISI_DENGEN_URL_RESOURCES_SIASYNC_API', $siasync->connect());
+        $request = $http->get('ISI_DENGEN_URL_SIASN_API_RESOURCES', $siasync->connect());
 
-        $data_utama =  json_decode((string) $get_data->getBody($siasync->auth())->getContents(), true);
-        dd($data_utama);
+        $response =  json_decode((string) $request->getBody($siasync->auth())->getContents(), true);
+        dd($response);
     }
 }
 
