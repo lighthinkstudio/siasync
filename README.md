@@ -1,8 +1,8 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://lighthinkstudio.com/assets/images/logo/lighthink_indigo.png" width="220"></a></p>
 
-## Tentang Kami
+## SIASYNC - Library Konfigurasi SIASN API
 
-SIASYNC adalah sebuah library untuk memudahkan koneksi dan integrasi SIASN API dalam mengembangkan sistem informasi kepegawaian menggunakan laravel.
+SIASYNC adalah sebuah library yang berfungsi untuk memudahkan proses pengelolaan konfigurasi koneksi dalam mengintegrasikan data SIASN dengan SIMPEG(Sistem Informasi Kepegawaian) menggunakan SIASN API pada masing-masing daerah/ wilayah menggunakan Framework Laravel.
 
 ## Instalasi
 
