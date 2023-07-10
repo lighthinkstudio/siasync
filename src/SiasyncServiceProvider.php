@@ -30,7 +30,6 @@ class SiasyncServiceProvider extends ServiceProvider
         //
         $this->publishes([
             __DIR__.'/../config/siasync.php' => config_path('siasync.php'),
-            __DIR__.'/../src/SiasyncServiceProvider.php' => app_path('Providers/SiasyncServiceProvider.php'),
         ]);
     }
 }
