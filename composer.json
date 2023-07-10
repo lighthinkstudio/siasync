@@ -1,6 +1,6 @@
 {
     "name": "lighthinkstudio/siasync",
-    "description": "SIASYNC adalah sebuah library yang berfungsi untuk memudahkan proses pengelolaan konfigurasi koneksi dalam mengintegrasikan data SIASN dengan SIMPEG(Sistem Informasi Kepegawaian) menggunakan SIASN API pada masing-masing daerah/ wilayah menggunakan Framework Laravel.",
+    "description": "SIASYNC adalah sebuah library konfigurasi API SIASN untuk Framework Laravel.",
     "type": "library",
     "license": "MIT",
     "autoload": {
