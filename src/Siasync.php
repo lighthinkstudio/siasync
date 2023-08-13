@@ -13,7 +13,7 @@ class Siasync
 
         $sso = $http->post(config('siasync.siasync_sso_url', 'siasync_sso_url'), [
             'form_params' => [
-                'client_id'     => 'developer',
+                'client_id'     => config('siasync.siasync_client_id', 'siasync_client_id'),
                 'username'      => config('siasync.siasync_username', 'siasync_username'),
                 'password'      => config('siasync.siasync_password', 'siasync_password'),
                 'grant_type'    => 'password',
