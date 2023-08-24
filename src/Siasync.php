@@ -51,6 +51,7 @@ class Siasync
         return [
             'headers' => [
                 'Accept-Type'   => 'application/json',
+                'Content-Type'  => 'application/json',
                 'Auth'          => 'Bearer '. $siasync->sso(),
                 'Authorization' => 'Bearer '. $siasync->auth(),
             ]

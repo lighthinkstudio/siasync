@@ -18,6 +18,7 @@ php artisan vendor:publish --provider="Lighthinkstudio\Siasync\SiasyncServicePro
 
 Tambahkan konfigurasi pada file .env seperti berikut:
 ```
+SIASYNC_CLIENT_ID=
 SIASYNC_SSO_URL=
 SIASYNC_AUTH_URL=
 SIASYNC_USERNAME=
